@@ -1,0 +1,17 @@
+server:
+  port: 3000
+
+db:
+  type: 'postgres'
+  host: 'localhost'
+  port: 5432
+  database: 'nestadmin'
+  username: 'postgres'
+  password: 'root'
+  autoLoadEntities: true
+  synchronize: true
+
+cors:
+  origin: '*'
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE'
+  credentials: true
